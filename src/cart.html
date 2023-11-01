@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style/style1.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">WallMart</a>
+            <form class="d-flex" role="search">
+                <button class="btn btn-primary">Log In</button>
+                <button class="btn btn-light">Sign Up</button>
+            </form>
+        </div>
+    </nav>
+
+    <!-- Table -->
+    <div class="row col-12 justify-content-center mt-5" id="parent">
+
+        <div id="table" class="col-10 mx-auto mt-2"></div>
+
+        <div class="row col-12 mx-auto justify-content-center text-center">
+            <span class="col-md-2 col-sm-6 h5 d-flex justify-content-end">Total: ₹</span>
+            <span class="col-md-2 col-sm-6 h6 d-flex justify-content-start" id="TotalCost"></span>
+        </div>
+
+        <!-- Buttons  -->
+        <div class="row col-8 mx-auto d-flex justify-content-center align-items-center">
+            <div class="col-md-5 col-sm-6 mt-2 d-flex justify-content-center"><a href="https://www.billdesk.com/web/"
+                    class=""><button class="btn btn-primary">Proceed To Payment</button></a></div>
+            <div class="col-md-4 col-sm-5 mt-2 d-flex justify-content-center">
+                <a href="/src/cart.html" class=""><button class="btn btn-primary btn-block">Go Back</button></a>
+            </div>
+        </div>
+    </div>
+
+    <script src="/scripts/cart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
