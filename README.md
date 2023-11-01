@@ -1,6 +1,7 @@
 # WallMart
 ## Simple FrontEnd Project
-![image](https://github.com/okpranavbansal/WallMart/assets/88312023/ce4c8857-3a60-4025-97fb-b60f85f8afaa)
+![image](https://github.com/okpranavbansal/WallMart/assets/88312023/b118f5d4-9b17-4bdf-aa67-74c1e1bceaa0)
+
 
 ## Dowload
 
