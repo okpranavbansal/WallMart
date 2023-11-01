@@ -6,7 +6,7 @@ let totalcost = 0;
 
 //If cart is empty
 const setImage = () => {
-    document.getElementById("parent").innerHTML = `<div class="col-lg-4 text-center ml-0"><img src="/assets/emptycart.jpg"  style="width:300px; height:250px"></div>`;
+    document.getElementById("parent").innerHTML = `<div class="col-lg-4 text-center ml-0"><img src="/images/emptycart.jpg"  style="width:300px; height:250px"></div>`;
 }
 
 let createTable = (list) => {

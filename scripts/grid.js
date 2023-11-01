@@ -102,7 +102,7 @@ function sortByCriterion(criteria) {
         if (criteria === 'rating') {
             valueA = a.rating.rate;
             valueB = b.rating.rate;
-            console.log(a.rating.rate)
+            // console.log(a.rating.rate)
         }
 
         if (valueA < valueB) {
